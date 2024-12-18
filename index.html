@@ -1,15 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Portal</title>
+    <style>
+        body {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+        }
+        .logo {
+            margin-bottom: 20px;
+        }
+        .code-table {
+            border: 1px solid #ccc;
+            padding: 20px;
+            display: inline-block;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
 <body>
-<center>
-<h1>Super Awesome Remote Support Session</h1>
-<body bgcolor="silver" onLoad="document.forms[0].name.focus();"><FORM METHOD="POST" ACTION="https://fastsupport.gotoassist.com/servlet/download/customerDownload" name="ssid">
+    <div class="container">
+        <div class="ascenthm">
+            <img src="https://raw.githubusercontent.com/nroseascent/GTR/refs/heads/main/Ascent_Logo.png" alt="AHM Logo" width="200">
+        </div>
+        <div class="code-table">
+            <h2>Connect Code</h2>
+            <p>Enter your connect code here</p>
+<FORM METHOD="POST" ACTION="https://fastsupport.gotoassist.com/servlet/download/customerDownload" name="ssid">
 <TABLE BORDER="0"> <TR> <TD>Your dumb name:</TD> <TD><INPUT TYPE="TEXT" NAME="name" SIZE="20"></TD> </TR> <TR> <TD>9 digit number:</TD> <TD><INPUT TYPE="TEXT" NAME="supportSessionId" SIZE="20"></TD> </TR> <TR> <TD></TD> <TD><INPUT TYPE="SUBMIT" VALUE="Connect"></TD> </TR></TABLE>
 </FORM>
-<p>This is a holder page.<br>Also, Nathan rules.</p>
-</center>
+        </div>
+    </div>
 </body>
 </html>
